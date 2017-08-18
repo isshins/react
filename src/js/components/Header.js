@@ -10,9 +10,10 @@ export default class Header extends Component {
         <div className="header">
           <div className="content_wrap">
             <div className="header_right">
-              <Link ="/">
-                <img src={window_w >= 'number' ? "..../data/img/" : "..../data/img/"} alt="inftechlabslogo">
+              <Link to="/">
+                <img src={window_w >= 'number' ? "..../data/img/" : "..../data/img/"} alt="inftechlabslogo" />
               </Link>
+            </div>
             <div className="header_left">
               <nav>
                 <ul className="page_nav row">

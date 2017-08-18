@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router';
 
-export default class Footer Component {
+export default class Footer extends Component {
 
   render () {
     return (
@@ -16,6 +16,7 @@ export default class Footer Component {
                 <div className="body">
                   contact@gmail.com
                 </div>
+              </div>
               <div className="column">
                 <div className="title">
                   SITEMAP
@@ -28,9 +29,8 @@ export default class Footer Component {
               </div>
             </div>
           </div>
-        </footer>
-        
-
+        </div>
+      </footer>
     )
   }
 }
